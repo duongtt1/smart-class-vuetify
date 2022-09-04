@@ -1,6 +1,6 @@
 <template>
 <v-container fluid style="height: 500px;">
-    <v-tabs background-color="grey lighten-5" v-bind:align-with-title="true" v-bind:vertical="true" grow class="fill-height">
+    <v-tabs background-color="grey lighten-5" align-with-title v-bind:vertical="true" grow class="fill-height">
         <v-tabs-slider color="blue"></v-tabs-slider>
         <div class="d-flex flex-column justify-space-between ">
             <div class="d-flex flex-column justify-start align-start">
