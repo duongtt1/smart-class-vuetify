@@ -12,7 +12,7 @@
                 </v-tab>
             </div>
             <div class="d-flex flex-column justify-end mt-10">
-                <v-btn color="error" outlined>
+                <v-btn color="error" @click="onLogout" outlined>
                     Logout
                 </v-btn>
             </div>
@@ -97,5 +97,11 @@ export default {
             right: null,
         }
     },
+    methods: {
+      onLogout(){
+        localStorage.removeItem("user")
+        this.$router.push("/login")
+      }
+    }
 }
 </script>

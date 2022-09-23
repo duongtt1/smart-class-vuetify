@@ -33,7 +33,6 @@
       <v-btn icon color="primary">
         <v-icon>mdi-menu</v-icon>
       </v-btn>
-
     </v-col>
     <v-divider></v-divider>
   </v-row>

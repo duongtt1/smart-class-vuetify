@@ -3,7 +3,7 @@
     <v-main>
         <router-view></router-view>
     </v-main>
-    <v-bottom-navigation v-model="value" :background-color="color" fixed dark grow>
+    <v-bottom-navigation class="show_botton_bar mb-0 pb-0" v-model="value" :background-color="color" fixed dark grow>
         <v-btn height="100%" :color="color" :onclick="gotoroute">
             <span>Dashboard</span>
 
@@ -82,3 +82,8 @@ export default {
     },
 };
 </script>
+<style>
+.show_botton_bar {
+  z-index: 999 !important;
+}
+</style>

@@ -33,9 +33,9 @@
           },
           { text: 'Name', value: 'name' },
           { text: 'Predits', value: 'predits' },
-          { text: 'Progress', value: 'progress' },
-          { text: 'Midterm', value: 'midterm' },
-          { text: 'Endterm', value: 'endterm' },
+          { text: 'Progress (10%)', value: 'progress' },
+          { text: 'Midterm (30%)', value: 'midterm' },
+          { text: 'Endterm (60%)', value: 'endterm' },
           { text: 'Summary', value: 'summary' },
         ],
         desserts: [
@@ -103,7 +103,7 @@
             summary: 8.5,
           },
           {
-            id: "CE515",
+            id: "CE520",
             name: 'Intern Business',
             predits: 2,
             progress: 9.0,
@@ -112,7 +112,7 @@
             summary: 8.5,
           },
           {
-            id: "CE515",
+            id: "CE511",
             name: 'Intern Business',
             predits: 2,
             progress: 9.0,
@@ -121,7 +121,7 @@
             summary: 8.5,
           },
           {
-            id: "CE515",
+            id: "CE519",
             name: 'Intern Business',
             predits: 2,
             progress: 9.0,
@@ -130,7 +130,7 @@
             summary: 8.5,
           },
           {
-            id: "CE515",
+            id: "CE518",
             name: 'Intern Business',
             predits: 2,
             progress: 9.0,
@@ -139,7 +139,7 @@
             summary: 8.5,
           },
           {
-            id: "CE515",
+            id: "CE517",
             name: 'Intern Business',
             predits: 2,
             progress: 9.0,
@@ -148,7 +148,7 @@
             summary: 8.5,
           },
           {
-            id: "CE515",
+            id: "CE516",
             name: 'Intern Business',
             predits: 2,
             progress: 9.0,
